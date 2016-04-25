@@ -4,6 +4,7 @@
   "description": "A utility for autocompleting words",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js & ./node_modules/.bin/serve client",
     "test": "mocha test"
   },
   "keywords": [
@@ -16,6 +17,6 @@
     "byline": "^4.2.1"
   },
   "devDependencies": {
-    "local-web-server": "^1.2.2"
+    "serve": "^1.4.0"
   }
 }

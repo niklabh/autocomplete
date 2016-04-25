@@ -16,6 +16,8 @@ options: {
   dictionary: '<PATH_TO_DICTIONARY_FILE>'
 }
 
+If not provided default '/usr/share/dict/words' will be picked on unix machines.
+
 ## API
 ### getWord(key, limit)
 ### add(word)
