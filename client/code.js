@@ -1,4 +1,4 @@
-const api = 'http://localhost:9000/autocomplete';
+const api = 'http://linkm.in/autocomplete';
 
 var AutoComplete = React.createClass({
   getInitialState: function() {
@@ -33,6 +33,7 @@ var AutoComplete = React.createClass({
     return (
       <div className="commentBox">
         <h1>AutoComplete</h1>
+        <p>Autocomplete Util in javascript using trie data structure.</p>
         <form className="autoCompleteForm">
           <input
             type="text"
