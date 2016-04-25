@@ -1,17 +1,23 @@
 {
-  "name": "autocomplete",
-  "version": "0.0.1",
-  "description": "A utility for autocompleting words",
+  "name": "autocompletor",
+  "description": "A utility for autocompleting words using in memory trie data structure",
+  "version": "0.1.0",
+  "keywords": [
+    "trie",
+    "autocomplete"
+  ],
+  "author": "Nikhil Ranjan (@niklabh)",
+  "demo": "http://linkm.in/autocompleteweb/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niklabh/autocomplete.git"
+  },
+  "homepage": "https://github.com/niklabh/autocomplete",
   "main": "index.js",
   "scripts": {
     "start": "node server.js & ./node_modules/.bin/serve client",
     "test": "./node_modules/.bin/mocha test"
   },
-  "keywords": [
-    "autocomplete",
-    "trie"
-  ],
-  "author": "Nikhil Ranjan (@niklabh)",
   "license": "MIT",
   "dependencies": {
     "byline": "^4.2.1",
@@ -21,5 +27,8 @@
   "devDependencies": {
     "mocha": "^2.4.5",
     "serve": "^1.4.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
   }
 }
