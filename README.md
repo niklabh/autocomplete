@@ -2,7 +2,7 @@ Autocomplete
 ==========
 
 Autocomplete utility using trie data structure in javascript.
-A demo is hosted at http://linkm.in/autocompleteweb/[http://linkm.in/autocompleteweb/]
+A demo is hosted at http://linkm.in/autocompleteweb/
 
 ## Usage
 
