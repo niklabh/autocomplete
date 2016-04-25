@@ -25,7 +25,6 @@ If not provided default '/usr/share/dict/words' will be picked on unix machines.
 
 
 ## TODO
-- test
 - ES6
 
 
