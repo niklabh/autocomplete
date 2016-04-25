@@ -13,7 +13,7 @@ autoComplete(opts, function(err, dictionary) {
 ```
 
 options: {
-  dictionary: '<PATH_TO_DICTIONARY_FILE>'
+  dictionary: 'PATH_TO_DICTIONARY_FILE'
 }
 
 If not provided default '/usr/share/dict/words' will be picked on unix machines.
