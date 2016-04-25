@@ -8,7 +8,7 @@ A demo is hosted at http://linkm.in/autocompleteweb/
 ## Usage
 
 ```js
-var autoComplete = require('./autocomplete');
+var autoComplete = require('autocomplete');
 autoComplete(opts, function(err, dictionary) {
    dictionary.getWord("hac", 10);
 });
