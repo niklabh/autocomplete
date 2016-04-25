@@ -22,10 +22,13 @@ var AutoComplete = React.createClass({
       }.bind(this)
     });
   },
+  handleSuggestionClick: function(e) {
+    this.setState({text: e.target.innerText});
+  },
   render: function() {
-    let suggestions = this.state.suggestions.map(function(comment, index) {
+    let suggestions = this.state.suggestions.map((comment, index) => {
       return (
-        <li key={index}>
+        <li key={index} onClick={this.handleSuggestionClick}>
           {comment}
         </li>
       );
