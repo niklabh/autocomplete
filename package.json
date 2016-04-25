@@ -14,7 +14,8 @@
   "author": "Nikhil Ranjan (@niklabh)",
   "license": "MIT",
   "dependencies": {
-    "byline": "^4.2.1"
+    "byline": "^4.2.1",
+    "debug": "^2.2.0"
   },
   "devDependencies": {
     "serve": "^1.4.0"
