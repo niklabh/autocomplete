@@ -1,0 +1,21 @@
+{
+  "name": "autocomplete",
+  "version": "0.0.1",
+  "description": "A utility for autocompleting words",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "autocomplete",
+    "trie"
+  ],
+  "author": "Nikhil Ranjan (@niklabh)",
+  "license": "MIT",
+  "dependencies": {
+    "byline": "^4.2.1"
+  },
+  "devDependencies": {
+    "local-web-server": "^1.2.2"
+  }
+}
