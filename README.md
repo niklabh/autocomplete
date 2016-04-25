@@ -19,7 +19,7 @@ options: {
 If not provided default '/usr/share/dict/words' will be picked on unix machines.
 
 ## API
-### getWord(key, limit)
+### getWords(key, limit)
 ### add(word)
 
 
