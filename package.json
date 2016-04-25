@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js & ./node_modules/.bin/serve client",
-    "test": "mocha test"
+    "test": "./node_modules/.bin/mocha test"
   },
   "keywords": [
     "autocomplete",
@@ -19,6 +19,7 @@
     "debug": "^2.2.0"
   },
   "devDependencies": {
+    "mocha": "^2.4.5",
     "serve": "^1.4.0"
   }
 }
