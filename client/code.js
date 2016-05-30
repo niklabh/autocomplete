@@ -1,4 +1,4 @@
-const api = 'http://linkm.in/autocomplete';
+const api = 'https://linkm.in/autocomplete';
 
 var AutoComplete = React.createClass({
   getInitialState: function() {
