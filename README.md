@@ -1,5 +1,5 @@
 Autocomplete
-==========
+===========
 [![Build Status](https://travis-ci.org/niklabh/autocomplete.svg?branch=master)](https://travis-ci.org/niklabh/autocomplete)
 
 Autocomplete utility using trie data structure in javascript.
