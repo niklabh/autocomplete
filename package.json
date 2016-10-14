@@ -1,7 +1,7 @@
 {
-  "name": "autocompletor",
+  "name": "autocompletor_a",
   "description": "A utility for autocompleting words using in memory trie data structure",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "trie",
     "autocomplete"
