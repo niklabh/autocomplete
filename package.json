@@ -22,7 +22,7 @@
   "dependencies": {
     "byline": "^4.2.1",
     "chai": "^3.5.0",
-    "debug": "^2.2.0"
+    "debug": "^3.1.0"
   },
   "devDependencies": {
     "mocha": "^2.4.5",
